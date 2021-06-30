@@ -1,0 +1,9 @@
+operator
+numbers
+
+loop = fun(){
+    
+    input "Whats "+a+""+b+""
+    loop()
+}
+loop()

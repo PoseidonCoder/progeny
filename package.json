@@ -1,0 +1,23 @@
+{
+	"name": "intui",
+	"version": "0.0.1",
+	"description": "a simple interpreted programming language",
+	"main": "./bin/index.js",
+	"scripts": {},
+	"keywords": [
+		"language",
+		"interpreted",
+		"smhcode",
+		"lolcode"
+	],
+	"bin": {
+		"intui": "./bin/index.js"
+	},
+	"author": "Lukas Dobbles",
+	"license": "MIT",
+	"dependencies": {
+		"readline": "^1.3.0",
+		"readline-sync": "^1.4.10",
+		"yargs": "^17.0.1"
+	}
+}
