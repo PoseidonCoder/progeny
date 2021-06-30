@@ -13,7 +13,7 @@ repl.on('close', function () {
 	process.exit(0);
 });
 
-console.log('\u001b[40mWelcome to intui@0.0.2!\u001b[0m');
+console.log('\u001b[40mWelcome to progeny@0.0.2!\u001b[0m');
 console.log('Type "exit" to stop the repl');
 
 function ask() {
