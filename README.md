@@ -1,4 +1,6 @@
-# intui
+# progeny
+
+a minimalist, clean programming language
 
 ## Example (reference implementation)
 
@@ -35,4 +37,4 @@ show add(1, 2)
 
 ## Techincal definition
 
-Intui is a multi-paradigm procedural, functional, programming language
+Progeny is a multi-paradigm procedural, functional, programming language
