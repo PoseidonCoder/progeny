@@ -11,7 +11,7 @@
 		"progeny"
 	],
 	"bin": {
-		"pro": "./bin/index.js"
+		"prog": "./bin/index.js"
 	},
 	"author": "Lukas Dobbles",
 	"license": "MIT",
