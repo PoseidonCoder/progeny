@@ -22,8 +22,16 @@ switch (argv._.length) {
 
 	case 1:
 		const name = argv._[0] == '.' ? 'index.pog' : argv._[0] + '.pog';
-		const file = fs.readFileSync(name).toString();
-		exec(file, false, argv.d, new Environment());
+		let code;
+
+		try {
+			code = fs.readFileSync(name).toString();
+		} catch {
+			return console.log(`\u001b[31;1m"${name}" doesn't exist\u001b[0m`);
+		}
+
+		exec(code, false, argv.d, new Environment());
+
 		break;
 
 	default:
