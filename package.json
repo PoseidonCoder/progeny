@@ -1,17 +1,17 @@
 {
-	"name": "intui",
-	"version": "0.0.1",
-	"description": "a simple interpreted programming language",
+	"name": "progeny",
+	"version": "0.0.2",
+	"description": "a minimalist, clean programming language",
 	"main": "./bin/index.js",
 	"scripts": {},
 	"keywords": [
-		"language",
-		"interpreted",
-		"smhcode",
-		"lolcode"
+		"programming-language",
+		"interpreter",
+		"tree-walker",
+		"progeny"
 	],
 	"bin": {
-		"intui": "./bin/index.js"
+		"pro": "./bin/index.js"
 	},
 	"author": "Lukas Dobbles",
 	"license": "MIT",
